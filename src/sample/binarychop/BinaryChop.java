@@ -35,7 +35,7 @@ public class BinaryChop {
 
     /**
      * 不使用递归的二分查找
-     *title:commonBinarySearch
+     *title:cyclerBinarySearch
      *@param arr
      *@param key
      *@return 关键字位置
