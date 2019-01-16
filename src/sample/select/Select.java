@@ -11,8 +11,8 @@ public class Select {
         }
 
         public static void selectSort(int[] arr) {
-            for (int i = 0; i < arr.length - 1; i++) {
-                int minIndex = i; // 用来记录最小值的索引位置，默认值为i
+            for (int i = 0; i < arr.length - 1; i++) {//剩下最后一位是最大的值
+                int minIndex = i; // 用来记录最小值的索引位置，默认值为i，初始位置
                 for (int j = i + 1; j < arr.length; j++) {
                     if (arr[j] < arr[minIndex]) {
                         minIndex = j; // 遍历 i+1~length 的值，找到其中最小值的位置
